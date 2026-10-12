@@ -176,7 +176,7 @@ function getCodecProfiles(): CodecProfile[] {
     // See: https://issuetracker.google.com/issues/330548743
     for (const audioCodec of getSupportedAudioCodecs()) {
         switch (audioCodec) {
-            case 'opus':
+            // case 'opus':
             case 'eac3':
             case 'ac3':
                 continue;
